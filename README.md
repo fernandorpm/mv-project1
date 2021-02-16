@@ -17,7 +17,7 @@ The idea behind this project is to copy the New York Times article.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://fernandorpm.github.io/mv-project1/)
 
 
 ## Getting Started
@@ -33,9 +33,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Fernando Marques**
 
-- GitHub: [@githubhandle](https://github.com/fernandorpm)
-- Twitter: [@twitterhandle](https://twitter.com/rpm_fernando)
-- LinkedIn: [LinkedIn](https://linkedin.com/fernandorpm)
+- GitHub: [@fernandorpm](https://github.com/fernandorpm)
+- Twitter: [@rpm_fernando](https://twitter.com/rpm_fernando)
+- LinkedIn: [Fernando R P Marques](https://linkedin.com/fernandorpm)
 
 
 ## 🤝 Contributing
