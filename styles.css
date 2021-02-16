@@ -19,7 +19,8 @@ a {
   text-decoration: none;
 }
 
-a:hover, button:hover {
+a:hover,
+button:hover {
   cursor: pointer;
   opacity: 0.8;
   transition-duration: 0.2s;
@@ -187,7 +188,8 @@ a:hover, button:hover {
   width: 40%;
 }
 
-.article-img h4, .article-img h6 {
+.article-img h4,
+.article-img h6 {
   margin: 0;
 }
 
@@ -431,4 +433,3 @@ footer {
   font-size: 10px;
   color: #666;
 }
-
