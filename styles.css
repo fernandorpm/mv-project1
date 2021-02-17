@@ -1,0 +1,438 @@
+/* GLOBAL PROPERTIES ========================================================= */
+
+body {
+  margin: 100px 0 0 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+h6 {
+  font-weight: 300;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition-duration: 0.2s;
+}
+
+.square-btn {
+  background-color: #567b95;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+}
+
+.clear-margin {
+  margin: 0;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.black {
+  color: black;
+}
+
+/* NAVBAR PROPERTIES ========================================================= */
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+/* Navbar Sections (Left, Middle, Right part) */
+
+.nav-div {
+  margin: 4px 8%;
+}
+
+/* Navbar Menu (Left part) */
+
+.nav-menu {
+  align-items: center;
+}
+
+.nav-menu i {
+  margin-right: 18px;
+}
+
+.nav-menu p {
+  display: inline;
+}
+
+/* Navbar Logo (Middle part) */
+
+.nav-logo {
+  margin-top: 8px;
+}
+
+/* Navbar Buttons (Right Part) */
+
+.nav-btns button {
+  font-size: 11px;
+  padding: 8px 16px;
+}
+
+/* EDITORS PICK PROPERTIES =================================================== */
+
+.editors-pick {
+  width: 240px;
+  margin: 1000px 12% 0 0;
+  position: absolute;
+  right: 0;
+}
+
+.editors-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.editors-pick img {
+  float: left;
+  margin-right: 10px;
+}
+
+.editors-pick p {
+  line-height: 120%;
+  padding-bottom: 10px;
+}
+
+.editors-pick a {
+  color: #333;
+}
+
+/* ARTICLE PROPERTIES ======================================================== */
+
+/* Article Title */
+
+.article h1 {
+  line-height: 120%;
+  font-style: italic;
+  font-size: 36px;
+  color: black;
+}
+
+.sharing-btn {
+  border: 0;
+  border-radius: 50%;
+  background-color: #ececec;
+  padding: 8px;
+  scale: 0.7;
+  height: 40px;
+}
+
+/* Article Text */
+
+.article {
+  color: #333;
+  line-height: 130%;
+  width: 30%;
+  font-size: 22px;
+}
+
+/* IMAGE FROM ARTICLE PROPERTIES ============================================= */
+
+.article-main-img {
+  width: 63%;
+}
+
+.article-explanation-img {
+  width: 940px;
+  position: relative;
+}
+
+.article-explanation-img img {
+  z-index: -1;
+}
+
+.article-explanation-img h4 {
+  font-size: 20px;
+}
+
+.article-explanation-img h6 {
+  font-size: 15px;
+}
+
+.row-text-box {
+  position: absolute;
+}
+
+.top-4 {
+  bottom: 370px;
+}
+
+.bottom-4 {
+  bottom: 80px;
+}
+
+.single-text-box {
+  width: 220px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+}
+
+.article-final-img {
+  width: 40%;
+}
+
+/* Captions */
+
+.caption {
+  font-size: 17px;
+  color: #666;
+  line-height: 110%;
+}
+
+.caption small {
+  color: #888;
+}
+
+.article-figcaption {
+  width: 85%;
+}
+
+.article-videocaption {
+  width: 90%;
+}
+
+.article-details {
+  font-size: 13px;
+}
+
+/* BUTTONS PROPERTIES ======================================================= */
+
+.read-btn {
+  font-size: 13px;
+  padding: 10px 80px;
+}
+
+.final-share {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* OTHER NEWS PROPERTIES ==================================================== */
+
+.suggestions {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 1200px;
+}
+
+/* Detailed Content Articles */
+
+.detailed-content {
+  margin-right: 3%;
+  max-width: 70%;
+}
+
+.card {
+  border: 1px solid #e2e2e2;
+  transition-duration: 0.3s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.news {
+  width: 267px;
+}
+
+.news-extra {
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+  color: #666;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.news-title {
+  font-size: 15px;
+  margin: 0 0 4px 0;
+}
+
+.card-margin {
+  margin-right: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 0 8px #e2e2e2;
+  cursor: pointer;
+}
+
+.card p {
+  color: #666;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-btn {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  border: 2px solid black;
+  color: black;
+  transition-duration: 0.3s;
+  position: absolute;
+  right: 15px;
+}
+
+.card:hover .card-btn {
+  color: white;
+  background-color: black;
+}
+
+.card-btn i {
+  margin-top: 4px;
+}
+
+/* Short Content Articles */
+
+.most-popular {
+  font-size: 20px;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 16px;
+  font-weight: 300;
+}
+
+.most-popular a {
+  color: black;
+}
+
+.most-popular:hover {
+  opacity: 60%;
+}
+
+.suggestions-hr {
+  border-top: 1px solid black;
+}
+
+.suggestions-tag {
+  margin: 16px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* FOOTER PROPERTIES ======================================================== */
+
+footer {
+  width: 1200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: auto;
+}
+
+.footer-hr {
+  height: 1px;
+  border-top: 3px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.footer-details {
+  font-size: 10px;
+  float: right;
+}
+
+/* Website Map */
+
+.website-map-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+}
+
+.map-column {
+  font-size: 12px;
+}
+
+.map-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.map-column ul h5 {
+  margin: 12px 0 12px 0;
+}
+
+.map-column ul li {
+  margin-bottom: 8px;
+}
+
+.map-column ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Special Column (final column) */
+
+.special-column {
+  padding-left: 14px;
+  border-left: 1px solid #e2e2e2;
+}
+
+.bigger-item {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.bigger-item i {
+  float: left;
+  scale: 0.7;
+  margin-top: -3px;
+}
+
+.smaller-item {
+  font-size: 10px;
+}
+
+.division-break {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+/* Final Footer */
+
+.final-footer {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+.footer-goto {
+  font-size: 10px;
+  color: #666;
+}
