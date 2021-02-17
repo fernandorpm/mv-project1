@@ -22,7 +22,8 @@ a {
   color: black;
 }
 
-a:hover, button:hover {
+a:hover,
+button:hover {
   cursor: pointer;
   opacity: 0.8;
   transition-duration: 0.2s;
