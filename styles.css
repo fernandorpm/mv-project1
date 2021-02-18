@@ -49,6 +49,10 @@ button:hover {
   display: flex;
 }
 
+.block {
+  display: block;
+}
+
 .black {
   color: black;
 }
@@ -127,6 +131,88 @@ button:hover {
 
 .editors-pick a {
   color: #333;
+}
+
+/* READERS FORM ============================================================== */
+
+.reader-form {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 200px;
+  padding: 10px 20px 30px;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 20px #e2e2e2;
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  z-index: 2;
+  transition-duration: 0.2s;
+}
+
+.reader-form h4 {
+  margin-left: 30px;
+}
+
+.reader-form:hover {
+  width: 450px;
+}
+
+.reader-form-content {
+  max-height: 0;
+  opacity: 0;
+  padding: 0 20px 0 0;
+  z-index: 2;
+  transition-duration: 1s;
+}
+
+.reader-form:hover .reader-form-content {
+  max-height: 600px;
+  display: block;
+  opacity: 1;
+}
+
+.opinion-icon {
+  position: absolute;
+  left: 20px;
+  top: 24px;
+  color: #8b5eff;
+}
+
+.textbox-input {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 10px;
+  line-height: 130%;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+}
+
+.send-btn {
+  width: 450px;
+  height: 40px;
+  margin: 20px 0;
+  background-color: #567b95;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+  font-weight: bold;
+}
+
+.send-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.form-break {
+  display: block;
+  margin-top: 20px;
+}
+
+.form-margin {
+  margin-top: 20px;
 }
 
 /* ARTICLE PROPERTIES ======================================================== */

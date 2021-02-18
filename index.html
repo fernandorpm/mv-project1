@@ -29,6 +29,7 @@
       <br>
     </div>
 
+
   </header>
 
   <!--NAVBAR =========================================================================================-->
@@ -61,6 +62,37 @@
 
   <main>
 
+    <!-- Reader Form -->
+    <aside class="reader-form">
+
+      <h4><i class="material-icons opinion-icon">add_comment</i>What's your opinion?</h4>
+      <div class="reader-form-content">
+        <form action="/#" method="post">
+          <label class="form-break">Name</label>
+          <input type="text" placeholder="How should we call you?" id="name" class="textbox-input" required maxlength="20">
+
+          <label class="form-break">Email</label>
+          <input type="email" placeholder="Your most awesome email B)" id="email" class="textbox-input" required maxlength="20">
+
+          <label class="form-break">What do you think?</label>
+          <textarea placeholder="Type your comment here..." rows="8" id="opinion" class="block textbox-input" required maxlength="250"></textarea>
+
+          <label class="form-break">What is your overall opinion about this article?</label>
+          <input type="radio" name="rating" id="positive" value="0"> <label for="positive">I loved it!</label>
+          <input type="radio" name="rating" id="neutral" value="1"> <label for="neutral">Average</label>
+          <input type="radio" name="rating" id="negative" value="2"> <label for="negative">Not to my liking</label>
+
+          <br>
+
+          <input type="checkbox" name="newsletter" id="newsletter" class="form-margin">
+          <label>I want to receive newsletter from The Microverse Times</label>
+
+          <input type="submit" value="Send" class="send-btn">
+        </form>
+      </div>
+
+    </aside>
+
     <!-- Editors' Pick -->
 
     <aside class="editors-pick">
@@ -89,7 +121,8 @@
         alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe 
                 expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago."
         style="width: 100%;height: auto">
-      <figcaption class="article-figcaption caption clear-margin">Alan Guth was one of the first physicists to hypothesize the
+      <figcaption class="article-figcaption caption clear-margin">Alan Guth was one of the first physicists to
+        hypothesize the
         existence of inflation, which explains how the universe
         expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
         <small>Rick Friedman for The New York Times</small>
@@ -154,7 +187,8 @@
     <!-- Second Image -->
     <figure class="article-img article-explanation-img center">
       <h4 class="clear-margin">The Theory of Inflation</h4>
-      <h6 class="clear-margin">Astronomers have found evidence to support the theory of inflation, which explains how the universe
+      <h6 class="clear-margin">Astronomers have found evidence to support the theory of inflation, which explains how
+        the universe
         expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</h6>
       <img
         src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png"
@@ -241,7 +275,8 @@
         allowfullscreen>
 
       </iframe>
-      <p class="article-videocaption caption clear-margin">Stanford Professor Andrei Linde celebrates physics breakthrough
+      <p class="article-videocaption caption clear-margin">Stanford Professor Andrei Linde celebrates physics
+        breakthrough
         <small>Video by StanfordUniversity</small>
       </p>
 
@@ -379,7 +414,8 @@
       <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of
         the team, “you wind up at inflation.”</p>
 
-      <p class="caption article-details clear-margin">A version of this article appears in print on March 18, 2014, Section A,
+      <p class="caption article-details clear-margin">A version of this article appears in print on March 18, 2014,
+        Section A,
         Page 1 of the New York
         edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="#" target="_blank">Order
           Reprints</a> | <a href="#" target="_blank">Today’s Paper</a> |
@@ -390,7 +426,7 @@
       <br>
 
       <div class="final-share flex">
-        <button class="square-btn read-btn">READ 615 COMMENTS</button>
+        <button class="square-btn read-btn" type="button">READ 615 COMMENTS</button>
         <div class="article-title-sharing">
           <button class="sharing-btn" type="button"><i class="material-icons">catching_pokemon</i></button>
           <button class="sharing-btn" type="button"><i class="material-icons">catching_pokemon</i></button>
@@ -705,11 +741,15 @@
       <div class="map-column special-column">
         <h5>SUBSCRIBE</h5>
         <ul>
-          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Home Delivery</a></li>
-          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Digital Subscriptions</a>
+          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Home
+              Delivery</a></li>
+          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Digital
+              Subscriptions</a>
           </li>
-          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Games</a></li>
-          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Cooking</a></li>
+          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Games</a>
+          </li>
+          <li class="bigger-item"><i class="material-icons">catching_pokemon</i><a href="#" class="black"> Cooking</a>
+          </li>
 
           <li class="smaller-item"><a href="#" class="black">Email Newsletter</a></li>
           <li class="smaller-item"><a href="#" class="black">Corporate Subscriptions</a></li>
