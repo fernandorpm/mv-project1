@@ -163,7 +163,6 @@ button:hover {
   padding: 0 20px 0 0;
   z-index: 2;
   transition-duration: 1s;
-
 }
 
 .reader-form:hover .reader-form-content {
